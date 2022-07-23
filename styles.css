@@ -1,19 +1,24 @@
 /* font-family: 'Montserrat', sans-serif; */
 
+/* color palette: #bababa (light grey), #fad7d5 (light pink), #f8b67c (peach), #94ac78 (light green), #769293 (seafoam green)  */
+
 /* Refactor: */
 /* alphabetize the properties within each rule */
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #769293;
   margin: 0;
   padding: 0;
 }
+
 /* Navigation Bar */
 
 .navbar {
+  background: #f8b67c;
   display: flex;
   flex-direction: row;
-  height: 15rem;
+  height: 11rem;
   justify-content: space-between;
 }
 
@@ -42,6 +47,7 @@ body {
 .navbar-links-section {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   font-size: 0.6rem;
   margin: 0 0 0 0.6rem;
   padding: 0;
@@ -60,16 +66,42 @@ body {
 }
 
 .logo-icon {
-  height: 4rem;
+  height: 18%;
   display: flex;
   justify-content: flex-end;
   margin: 0;
   padding: 2.1rem 0.5rem 0 0.8rem;
-  width: 4rem;
+  width: 6rem;
 }
 
-
 /* Main */
+
+h3 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin: 1.9rem 0 1rem 0;
+  padding: 0 0 0 1.3rem;
+}
+
+.section-cards1,
+.section-cards2 {
+  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+}
+
+.section-cards2 {
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: #94ac78;
+  border: 1px #d8d9dc solid;
+  margin: 0.3rem;
+  width: 20rem;
+}
 
 /* Card section with photo */
 
@@ -78,4 +110,67 @@ body {
   width: 20rem;
 }
 
+.section-recipient-info-container {
+  max-width: 20rem;
+  padding: 1rem;
+}
+
+.section-photo-container {
+  position: relative;
+}
+
+.upward-right-arrow {
+  border-radius: 10rem;
+  height: 3rem;
+  left: 0.5rem;
+  padding: 0.1rem;
+  position: absolute;
+  top: 0.5rem;
+  width: 3rem;
+}
+
+.views,
+.number-of-views {
+  color: #ffffff;
+  padding: 0;
+  position: absolute;
+}
+
+.views {
+  bottom: 11.4rem;
+  font-size: 0.8rem;
+  right: 0.9rem;
+}
+
+.number-of-views {
+  bottom: 7.9rem;
+  font-size: 2rem;
+  right: 1.1rem;
+}
+
 /* Recipient info section */
+
+.recipient-name {
+  margin: 0;
+}
+
+.date-time {
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.recipient-link {
+  background:#bababa;
+  padding: 0.5rem;
+}
+
+.playlist-info {
+  font-size: 0.8rem;
+}
+
+.number-attachments {
+  color: #f8b67c;
+  font-size: 2rem;
+  margin: 0;
+}
