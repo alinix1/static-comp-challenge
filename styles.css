@@ -1,5 +1,81 @@
 /* font-family: 'Montserrat', sans-serif; */
 
+/* Refactor: */
+/* alphabetize the properties within each rule */
+
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+/* Navigation Bar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 15rem;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  display: grid;
+  padding: 1.5em 0 0 0;
+  margin: 0 0 0 0;
+  width: 40rem;
+}
+
+.navbar-right {
+  width: 20rem;
+}
+
+.username-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0.5rem 2.2rem 0 0;
+}
+
+.username {
+  margin: 0.7rem 0 0 0;
+}
+
+.navbar-links-section {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.6rem;
+  margin: 0 0 0 0.6rem;
+  padding: 0;
+}
+
+.navbar-icon {
+  height: 1.3rem;
+  padding: 0.5rem;
+  width: 1.3rem;
+}
+
+.logo-section {
+  display: flex;
+  font-size: 2.3rem;
+  justify-content: flex-end;
+}
+
+.logo-icon {
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 2.1rem 0.5rem 0 0.8rem;
+  width: 4rem;
+}
+
+
+/* Main */
+
+/* Card section with photo */
+
+.recipient-photo {
+  margin: 0;
+  width: 20rem;
+}
+
+/* Recipient info section */
