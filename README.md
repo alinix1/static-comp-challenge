@@ -10,7 +10,7 @@ The static comp challenge is a challenge to keep you working that HTML/CSS muscl
 <img width="336" alt="Screen Shot 2022-07-28 at 8 32 09 PM" src="https://user-images.githubusercontent.com/28677929/181670882-f91bd11d-1625-46fc-8f4e-234f5af5e2a7.png">
 
 ## Technologies Used
-<p align="left"
+<p align="left">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" title="HTML" alt="HTML" width="100" height="30">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" title="CSS" alt="CSS" width="100" height="30">
 </p>
