@@ -19,7 +19,7 @@ The static comp challenge is a challenge to keep you working that HTML/CSS muscl
 Built by [Ali Nix](https://github.com/alinix1), a Front End Engineering student in Mod 2 at the [Turing School of Software and Design](https://turing.edu/)
 
 * https://github.com/alinix1
-* https://www.linkedin.com/in/ali-nix-38b9b9126/
+* https://www.linkedin.com/in/ali-nix/
 
 ## Reflection
 It was fun to use grid in the CSS for the layout.  It's still a challenge at times to use display flex.  I'm still learning about the different measurement units, more specifically, relative units opposed to absolute units.  
